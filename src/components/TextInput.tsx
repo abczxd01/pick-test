@@ -68,7 +68,6 @@ const StyledTextInput = styled(TextInputRN)<{
   color: ${(props) => (props.error ? '#e64646' : '#4d4d4d')};
   font-size: 16px;
   border-radius: 4px;
-  position: relative;
   border-width: 1px;
   padding-left: 16px;
   border-color: ${(props) => (props.error ? '#e64646' : '#f2f4f7')};
